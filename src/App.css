@@ -1,0 +1,80 @@
+/* styles.css */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif; /* Font family for the entire document */
+  background: linear-gradient(to right, #00c6ff, #0072ff); /* Background gradient from light blue to deep blue */
+  color: #ffffff; /* Text color set to white */
+  display: flex; /* Flexbox to center content */
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+/* Main container styles */
+.container {
+  background: rgba(0, 0, 0, 0.8); /* Slightly darker background for better contrast */
+  padding: 40px; /* Padding around the content */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* More pronounced box shadow */
+  text-align: center; /* Center align text inside container */
+  width: 90%; /* Responsive width */
+  max-width: 500px; /* Maximum width for larger screens */
+  margin: 20px; /* Margin to ensure spacing from edges */
+}
+
+/* Heading 1 styles */
+h1 {
+  font-size: 2.5em; /* Large font size for main title */
+  margin-bottom: 20px; /* Bottom margin */
+  color: #ffffff; /* White text color for the heading */
+}
+
+/* Input field styles */
+input[type="email"] {
+  width: calc(100% - 22px); /* Full width with padding adjustment */
+  padding: 10px; /* Padding inside the input */
+  font-size: 1em; /* Font size */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 20px; /* Space below the input */
+  outline: none; /* Remove default outline */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input[type="email"]:focus {
+  border-color: #4caf50; /* Border color on focus */
+}
+
+/* Button styles */
+.btn {
+  background: linear-gradient(to right, #ffffff, #f0f0f0); /* Gradient background for buttons */
+  color: #0072ff; /* Text color */
+  border: 2px solid #0072ff; /* Border matching the button text color */
+  padding: 12px 24px; /* Padding inside the button */
+  font-size: 1em; /* Font size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Smooth transition for background and text color */
+  margin: 10px; /* Space between buttons */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for button */
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #0072ff, #0056b3); /* Gradient background on hover */
+  color: #ffffff; /* Text color on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+}
+
+.btn:active {
+  background: linear-gradient(to right, #0056b3, #003d7a); /* Darker gradient for active state */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Inset shadow for active state */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    width: 95%; /* Adjust width for smaller screens */
+  }
+}
