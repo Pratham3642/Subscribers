@@ -1,3 +1,39 @@
+# Dynamic Email Subscription System
+
+## Introduction
+
+Welcome to the Dynamic Email Subscription System! This project is designed to provide a streamlined email subscription experience using modern web development technologies. Users can subscribe and unsubscribe to email notifications with real-time validation and clear feedback.
+
+## Features
+
+- **Real-time Email Validation:** Ensures that users enter valid email addresses.
+- **Subscription and Unsubscription:** Users can easily subscribe or unsubscribe from the mailing list.
+- **Email Notifications:** Sends confirmation emails upon successful subscription or unsubscription.
+- **Responsive Design:** Ensures a smooth user experience across different devices.
+
+## Technologies Used
+
+- **Frontend:**
+  - React: For building a dynamic and responsive user interface.
+  - Axios: For making HTTP requests to the backend.
+
+- **Backend:**
+  - Node.js and Express: For handling server-side operations and routing.
+  - MySQL: For managing email subscriptions in a relational database.
+  - Nodemailer: For sending confirmation emails to users.
+
+## Prerequisites
+
+- Node.js and npm installed
+- MySQL installed and configured
+
+## Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Pratham3642/Subscribers.git
+   cd Subscribers
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
